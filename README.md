@@ -1,4 +1,5 @@
-## <p id="top">Smart Brain</p>
+# <p align="center" id="top">Smart Brain</p>
+<p align="center"><img src="https://github.com/arjunan-k/Smart_Brain/blob/main/frontend/demo/06.png?raw=true"/></p>
 
 1. Clone this repo
 2. Run `npm install`
