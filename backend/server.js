@@ -22,10 +22,10 @@ const image = require("./controllers/image")
 const db = knex({
   client: 'pg',
   connection: {
-    host : 'Grab host from Supabase Settings -> Database',
+    host : process.env.DB_HOSTNAME,
     port : 5432,
     user : 'postgres',
-    password : 'Password from Supabase',
+    password : process.env.DB_PASSWORD,
     database : 'postgres'
   }
 });
